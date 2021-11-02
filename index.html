@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../DnD/style.css" />
+    <title>Amilcar DnD</title>
+  </head>
+  <body>
+    <!-- modal -->
+      <div class="modal" id="todo_form">
+      <div class="header">
+        <div class="title">Añadir</div>
+        <button class="btn close-modal">&times;</button>
+      </div>
+      <div class="body">
+        <input type="text" id="todo_input"/>
+        <input type="submit" value="Añadir a:" id="todo_submit"/>
+      </div>
+    </div>
+    <!-- todo -->
+    <div class="todo-container">
+      <div class="status"  id="no_status">
+        <h1>Pedido</h1>
+        <button id="add_btn" data-target-modal="#todo_form">+ Añadir</button>
+        <div class="todo" draggable="true">
+          0
+          <span class="close">&times;</span>
+        </div>
+      </div>
+      <div class="status">
+        <h1>Servicio 1</h1>
+      </div>
+      <div class="status">
+        <h1>Servicio 2</h1>
+      </div>
+      <div class="status">
+        <h1>Salida</h1>
+      </div>
+    </div>
+
+    <div id="overlay"></div>
+
+    <script src="../DnD/dnd.js"></script>
+  </body>
+</html>
