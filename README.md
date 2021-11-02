@@ -3,7 +3,7 @@
 
 Drag and Drop sencillo
 
-![dino](https://github.com/NdAmilcar/Dino-Off-line/blob/main/img/DInoJs.png)
+![dino](https://github.com/NdAmilcar/DragAndDrop/blob/main/Dnd-Amilcar.png)
 
 
 
